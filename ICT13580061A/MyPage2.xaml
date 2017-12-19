@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="ICT13580061A.MyPage2"
+    Title="Page"
+    BackgroundColor="Green">
+     <StackLayout
+        Orientation="Vertical"
+        VerticalOptions="Center"
+        Padding="38">
+        <Button
+            x:Name="nextButton"
+            Text="NEXT >>"
+            BackgroundColor="Gray" />
+        <Button
+            x:Name="backButton"
+            Text="Back"
+            BackgroundColor="Gray" />
+    </StackLayout>
+
+</ContentPage>
